@@ -1,7 +1,7 @@
 let cardsList = [
 
-    {'name': 'Frieza', 'src': './img/frieza.png'},
-    {'name': 'Frieza', 'src': './img/frieza.png'},
+    {'name': 'Broly', 'src': './img/broly.png'},
+    {'name': 'Broly', 'src': './img/broly.png'},
     {'name': 'Gohan', 'src': './img/gohan.png'},
     {'name': 'Gohan', 'src': './img/gohan.png'},
     {'name': 'Goku', 'src': './img/goku.png'},
