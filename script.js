@@ -24,6 +24,7 @@ newGameBtn.addEventListener('click', () => {
 continueBtn.addEventListener('click', continueGame);
 
 function newGame() {
+    tentative = 0;
     menu.classList.remove('active');
     continueBtn.classList.add('active');
 
