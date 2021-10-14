@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import "menu.css";
+@import "game.css";
+
+:root {
+    --font-family : 'Lato', sans-serif;;
+    --title-clr : #fff;
+}
+
+* {
+    font-family: var(--font-family);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

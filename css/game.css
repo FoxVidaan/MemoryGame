@@ -1,0 +1,55 @@
+.game {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.try {
+    position: fixed;
+    padding: 10px;
+    z-index: 1;
+    background-color: white;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cards {
+    min-height: calc(100vh - 60px);
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card {
+    cursor: pointer;
+    min-width: calc(200px - 10px);
+    width: calc(25% - 10px);
+    height: calc(50vh - 80px);
+    border: 1px solid rgba(0, 0, 0, 0.38);
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.card img:nth-child(1) {
+    display: initial;
+}
+
+.card img:nth-child(2) {
+    display: none;
+}
+
+.card.active img:nth-child(1), .card.disable img:nth-child(1) {
+    display: none;
+}
+
+.card.active img:nth-child(2), .card.disable img:nth-child(2) {
+    display: initial!important;
+}
